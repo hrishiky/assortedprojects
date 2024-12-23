@@ -1,0 +1,8 @@
+HTML Tags:
+<link> <div> <p> <a> <button> <h2> <h3> <ul> <li> <nav>
+
+CSS Properties:
+background-color; color; display; font-size; font-family
+
+JavaScript and Bootstrap:
+I used JavaScript to make a cool button that "flashbangs" your screen by completely turning it white, and I used Bootstrap to create a dropdown menu and a hidden navbar.

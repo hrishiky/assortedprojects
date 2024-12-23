@@ -1,0 +1,117 @@
+@font-face {
+    font-family: consolas;
+    src: url(Consolas.tff);
+}
+
+/* https://css-tricks.com/how-to-create-neon-text-with-css/ */
+.neonText {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+}
+
+.glowy {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #fff,
+        0 0 62px #fff,
+        0 0 82px #fff,
+        0 0 102px #fff,
+        0 0 121px #fff;
+}
+
+/* https://codepen.io/stealy/pen/NWNNPdd */
+.superShadow {
+    text-shadow:
+        0 1px 0 hsl(174,5%,80%),
+        0 2px 0 hsl(174,5%,75%),
+        0 3px 0 hsl(174,5%,70%),
+        0 4px 0 hsl(174,5%,66%),
+        0 5px 0 hsl(174,5%,64%),
+        0 6px 0 hsl(174,5%,62%),
+        0 7px 0 hsl(174,5%,61%),
+        0 8px 0 hsl(174,5%,60%),
+
+        0 0 5px rgba(0,0,0,.05),
+        0 1px 3px rgba(0,0,0,.2),
+        0 3px 5px rgba(0,0,0,.2),
+        0 5px 10px rgba(0,0,0,.2),
+        0 10px 10px rgba(0,0,0,.2),
+        0 20px 20px rgba(0,0,0,.3);
+  }
+
+  strong{
+    font-size:200px;
+  }
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+p {
+    font-family: consolas;
+    color: white;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: consolas;
+    color: white;
+}
+
+h3 {
+    font-family: consolas;
+    color: white;
+}
+
+a {
+    font-family: consolas;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    text-shadow:
+        0 0 7px #f0f,
+        0 0 10px #f0f,
+        0 0 20px #f0f,
+        0 0 42px #f0f,
+        0 0 82px #f0f,
+        0 0 92px #f0f,
+        0 0 102px #f0f,
+        0 0 151px #f0f;
+}
+
+a:hover {
+    font-family: consolas;
+    text-decoration: underline;
+    font-size: 20px;
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+}
+
+button {
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-family: consolas;
+    background-color: gray;
+    font-size: 22px;
+    color: white;
+}

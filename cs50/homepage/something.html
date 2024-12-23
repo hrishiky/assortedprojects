@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Webpage // Something</title>
+    </head>
+    <body>
+        <div>
+            <p>
+                &nbsp;
+            </p>
+            <p style="font-size: 25px" class="superShadow">
+                big shadow
+            </p>
+            <p style="font-size: 25px" class="glowy">
+                glowy text
+            </p>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 25px">
+              dropdown
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item">dropdown item</a>
+            </div>
+        </div>
+
+        <br>
+        <button type="button" onclick="flashbang()">flashbang</button>
+
+        <div>
+            <p>
+                &nbsp;
+            </p>
+            <a href="https://legendary-space-couscous-q79p7744wwgvhj6-8080.app.github.dev/index.html">/index.html</a>
+            <p style="display:inline"> || </p>
+            <a href="https://legendary-space-couscous-q79p7744wwgvhj6-8080.app.github.dev/about.html">/about.html</a>
+            <p style="display:inline"> || </p>
+            <a href="https://legendary-space-couscous-q79p7744wwgvhj6-8080.app.github.dev/github.html">/github.html</a>
+          </div>
+
+          <script>
+            function flashbang() {
+                document.body.style.display = "none";
+                setTimeout(() => {  alert("Refresh page to go back"); }, 3000);
+            }
+          </script>
+    </body>
+</html>

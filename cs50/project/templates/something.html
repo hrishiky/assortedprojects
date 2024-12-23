@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="/static/styles2.css" rel="stylesheet">
+        <title>Webpage // Something</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" style="color: white; font-size: 25px" href="/home">Webpage</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><p>&nbsp;</p></li>
+                    <li class="nav-item"><a class="nav-link" style="color: white" href="/about">about</a></li>
+                    <li class="nav-item"><a class="nav-link" style="color: white" href="/github">github</a></li>
+                    <li class="nav-item"><a class="nav-link" style="color: white" href="/something">something</a></li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <p>&nbsp;</p><p>&nbsp;</p>
+        <p>a page to store my creations</p>
+        <p>&nbsp;</p><p>&nbsp;</p>
+
+        <p>Get flashbanged:</p>
+        <button type="button" onclick="openFullscreen(); flashbang();">flashbang</button>
+        <br><p>&nbsp;</p>
+
+        <p>Trade fake stocks:</p>
+        <a href = "/finance/login" class="neonText" style="font-size: 25px">finance</a>
+        <br><p>&nbsp;</p>
+
+        <p>Chat with strangers:</p>
+        <a href = "/chat/chat" class="neonText" style="font-size: 25px">chat</a>
+        <br><p>&nbsp;</p>
+
+        <script>
+            function openFullscreen() {
+                var elem = document.body;
+                if (elem.requestFullscreen) {
+                    elem.requestFullscreen();
+                } else if (elem.webkitRequestFullscreen) {
+                    elem.webkitRequestFullscreen();
+                } else if (elem.msRequestFullscreen) {
+                    elem.msRequestFullscreen();
+                }
+            }
+        </script>
+
+        <script>
+            function flashbang() {
+                setTimeout(() => {  document.body.style.display = "none"; }, 3000);
+                setTimeout(() => {  location.reload(); }, 7000);
+            }
+        </script>
+        {{nothing}}
+    </body>
+</html>

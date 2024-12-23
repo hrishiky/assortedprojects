@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+    <main class="container py-5 text-center">
+        <div class="mb-3">
+            <p>A share of {{symbol}} costs ${{price}}.</p>
+        </div>
+        <a href="/finance/">
+            <button class="btn btn-primary">Back</button>
+        </a>
+    </main>
+{% endblock %}

@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: It was the fastest on the largest normal set.
+
+sort2 uses: Merge Sort
+
+How do you know?: It was the fastest when using the largest random data set.
+
+sort3 uses: Selection Sort
+
+How do you know?: Process of elimination
